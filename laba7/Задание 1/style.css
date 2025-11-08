@@ -1,0 +1,139 @@
+
+html, body {
+    background: #FFFBF5;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Блокирует горизонтальную прокрутку */
+    width: 100%;
+}
+
+
+header {
+display: flex;
+}
+
+#logo {
+width: 100px;
+height: 100px;
+margin: 10px;
+}
+
+.phrase {
+    color: #3E2723;
+    font-family: "DejaVu Sans Mono", monospace;
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+nav {
+    width: 100%;
+    background: #A52A2A;
+    font-family: "DejaVu Sans Mono", monospace;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.nav-a {
+margin: 20px;
+font-size: 25px
+
+}
+
+
+.about-section {
+    color: #3E2723;
+    font-family: "DejaVu Sans Mono", monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.video-wrapper {
+    position: relative;
+    z-index: 2;
+    max-width: 100%;
+}
+
+
+
+.pelmen-icon {
+width: 200px;
+height: 200px;
+}
+
+.pelmen-boxes {
+    border: 4px solid #A52A2A;
+    border-radius: 8px;
+    color: #3E2723;
+    font-family: "DejaVu Sans Mono", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#footer-phrase {
+    color: #3E2723;
+    font-family: "DejaVu Sans Mono", monospace;
+    display: flex;
+    font-size: 25px;
+}
+
+.footer-boxes {
+    color: #3E2723;
+    font-family: "DejaVu Sans Mono", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+
+footer {
+    padding: 40px 20px;
+}
+
+.footer-box {
+    height: 200px;
+    border: 4px solid #A52A2A;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 0;
+    max-width: 350px;
+    padding: 20px;
+}
+
+hr {
+margin: 20px;
+
+}
+
+a {
+    color: #FFFBF5;
+    text-decoration: none;
+}
+
+#pelmen-bg {
+    left: 1300px;
+    z-index: 1;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+
+    filter:
+        invert(16%)
+        sepia(99%)
+        saturate(2058%)
+        hue-rotate(340deg)
+        brightness(90%)
+        contrast(110%);
+}
